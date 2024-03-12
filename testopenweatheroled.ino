@@ -50,7 +50,7 @@ void ekranaYaz(float derece, int nem, float saat, float tarih);
 
 OpenWeatherMapCurrent client;
 
-String OPEN_WEATHER_MAP_APP_ID = "fac3775b19262e4f3d0018b9ee298779";
+String OPEN_WEATHER_MAP_APP_ID = "API KEY";
 
 String OPEN_WEATHER_MAP_LOCATION_ID = "744926";
 
@@ -69,8 +69,8 @@ const char* ESP_HOST_NAME = "esp-" + ESP.getEfuseMac();
 
 
 
-const char* ssid       = "Maple.V2";
-const char* password   = "early2.modern2.matlab2";
+const char* ssid       = "wifi";
+const char* password   = "psw";
 
 const long utcOffsetInSeconds = 10800;
 
